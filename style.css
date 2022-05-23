@@ -1,0 +1,74 @@
+body {
+    background-color: grey;
+    background-image: url(https://media1.giphy.com/media/g0OT8JBFRc8SY/giphy.gif?cid=790b76112a921906a0a4f4f8e6d844b73700b0a30c9a5512&rid=giphy.gif&ct=g);
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+#tittle, .subtittle, .post_tittle {
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#tittle {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+
+.post_tittle {
+font-size: 16px;
+font-style: italic;
+margin: 0%;
+margin-bottom: 15px;
+font-weight: bold;
+
+}
+
+.post {
+    background-color: gold;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    background-image: url(https://tm.ibxk.com.br/ms/images/highlights/000/053/881/50602.jpg?ims=704x264);
+    border-radius:  10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.post_content {
+    color:  white;
+    font-style: oblique;
+    margin: 0%;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.photo {
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+
+}
+
+.contact_list li a {
+    text-decoration: none;
+    color: blue;
+}
